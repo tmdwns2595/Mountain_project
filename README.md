@@ -13,4 +13,4 @@
 
 ## Display
 - 로딩 화면
-<img width="30%" src="https://user-images.githubusercontent.com/52947821/140100221-1c9b025f-7b1b-4065-8ee6-ae4c281b56d1.gif"/>
+<img width="30%" src="https://user-images.githubusercontent.com/52947821/140149330-23a73d77-a4b0-4f97-8137-5f8ebedce50a.gif"/>
