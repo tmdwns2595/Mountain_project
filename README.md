@@ -14,3 +14,6 @@
 ## Display
 - 로딩 화면
 <img width="30%" src="https://user-images.githubusercontent.com/52947821/140149330-23a73d77-a4b0-4f97-8137-5f8ebedce50a.gif"/>
+
+- 산 검색 화면
+<img width="30%" src="https://user-images.githubusercontent.com/52947821/140149330-23a73d77-a4b0-4f97-8137-5f8ebedce50a.gif"/>
