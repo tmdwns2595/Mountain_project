@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="370dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="370dp"
+                android:layout_height="180dp"
+                android:gravity="center_horizontal">
+                <VideoView
+                    android:id="@+id/videoView2"
+                    android:layout_width="370dp"
+                    android:layout_height="180dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center_horizontal"/>
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="등산은 대표적인 유산소 운동이자 근육 강화에 좋은 운동으로, 건강과 다이어트에 매우 효과적입니다. 하지만 무리한 등산은 척추질환을 유발 할 수 있어 주의가 필요합니다. \n심장질환, 당뇨환자, 골다공증, 빈혈 환자는 심한 등산을 자제하고 등산 중 가슴이 답답하거나 헛구역질이 나는 등 이상 증세가 있으면 바로 충분한 휴식을 취해야 합니다."
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:text="1. 하산 시간 파악"/>
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="- 가을에는 해가 짧아 일몰이 빠르고
+더욱이 계곡은 산꼭대기나 능선보다 일몰이 빠르다는 사실을 유의해야 합니다.\n
+- 이른 시간 등산을 시작해서 오후 4시 이전에는 하산해야 합니다."/>
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:text="2. 일교차 주의"/>
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="- 가을은 아침, 낮, 저녁의 기온 차이가 심하고,
+해가 지면 산꼭대기에서 찬바람이 불어 체온이 급격하게 떨어질 수 있습니다.\n
+- 기상에 따라 걸칠 수 있는 옷을 챙기는 것이 좋습니다.\n
+- 가을철 산행은 한낮에는 여름옷, 밤에는 겨울 옷이 필수입니다."/>
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:text="3. 목적지에 대한 정보 수집"/>
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="- 가고자 하는 산에 대한 사전 정보파악이 필요합니다.\n
+- 이용하고자 하는 등산로의 폐쇄 여부와 등산 경로를 체크하신 후 출발하도록 합니다.\n
+- 사전 정보 파악 시, 산행 소요시간, 위험 구간, 식수를 구할 수 있는 곳을 체크하는 것
+역시 잊지 않으시길  바랍니다."/>
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:text="4. 등산 전 스트레칭"/>
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="- 등산 전에는 갑작스러운 산행으로 근육이 놀라지 않도록 충분한 스트레칭으로 몸의 긴장을 풀어주고
+발목까지 잡아주는 등산화를 신는 것이 좋습니다.\n
+- 발목이나 무릎관절이 다치지 않도록 산행 전후로 스트레칭을 10분 이상 해주세요."/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

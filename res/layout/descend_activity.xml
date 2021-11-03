@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="370dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="370dp"
+                android:layout_height="180dp"
+                android:gravity="center_horizontal">
+                <VideoView
+                    android:id="@+id/videoView4"
+                    android:layout_width="370dp"
+                    android:layout_height="180dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center_horizontal"/>
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:text="1. 천천히 등산하기"/>
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="- 등산을 하실 때 주위를 둘려볼 여력 없이 빠르게 등산을 하시는 분들이 계신데
+빠른 등산보다는 여유롭게 주변을 관광하면서 올라가시는 것이 좋습니다.
+배낭을 매고 빠른 걸음으로 등산을 할 경우 무릎 관절에 무리가 많이 가기 때문입니다.
+또한 빠른 등산 시 많은 땀이 배출 되는데, 가을철에는 금방 땀이 식어 버리기 때문에 면역력도 낮아지고 감기에 잘 걸리게 됩니다.
+기관지가 약하신 분들 역시 가을철 공기가 기관지를 자극할 수 있기 때문에 천천히 등산 하셔야 합니다."/>
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:text="2. 야생 동식물 주의"/>
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="- 가을은 모든 동식물이 겨울을 준비하는 계절입니다.
+뱀, 벌 등을 조심하고 모르는 열매를 함부로 먹지 않도록 합니다."/>
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:text="3. 벌에 쏘였을 때"/>
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="- 가능한 재빠르게 벌침을 제거합니다.\n
+- 시원한 물로 찜질하여 부종을 감소시키고, 물린 부위를 높은 위치에 안정시켜야 합니다."/>
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:text="4. 뱀에 물렸을 때"/>
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="- 모든 뱀에 물린 상처는 응급상황으로 간주하고 당장 통증이 없더라도 병원에 가야 합니다.\n
+- 독이 퍼지는 것을 막기 위해 물린 곳을 고정하고, 아무것도 드시지 않아야 합니다.\n
+- 물린 부위를 입으로 빨아내거나 칼로 절개하는 등의 행위는 하지 않으시는 것이 좋습니다."/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="370dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="370dp"
+                android:layout_height="180dp"
+                android:gravity="center_horizontal">
+                <VideoView
+                    android:id="@+id/videoView5"
+                    android:layout_width="370dp"
+                    android:layout_height="180dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center_horizontal"/>
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:text="1. 발목 염좌"/>
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="- 지면이 고르지 않은 산에서는 발을 헛디뎌 발목이 삐끗하는 일이 많아
+등산 시 가장 많은 사고율을 보여주고 있는 사고입니다.\n
+- 자신의 발에 맞는 등산화를 신고 발이 헐렁하지 않도록 신발끈을 단단히 묶어야 합니다.\n
+- 특히 구두를 신거나 청바지를 입는 등 등산복이 아닌 복장을 갖추고 등산 시 더욱 조심해야 합니다.\n
+- 만약 발목이 심하게 부은 상태로 뼈에서 소리가 난다면 박리성골연골염 위험이 있으니
+하산하신 후 검사를 받아야 합니다."/>
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:text="2. 낙상"/>
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="- 가을 산행 시 낙엽에 미끄러지지 않도록 주의가 필요합니다.\n
+- 낙상 시에는 척추 압박골절이 발생할 수 있습니다.\n
+- 낙상이란, 척추 뼈가 충격에 의해 납작해지는 현상을 의미하며
+특히 등산을 즐기는 50~60대 이상의 연령층과 골다공증이 있는 사람의 경우 그 위험성이 아주 높습니다."/>
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:text="3. 찰과상"/>
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="- 피가 나고 약간의 쓰라림을 느끼는 정도의 가벼운 찰과상은 큰 문제가 없습니다.\n
+- 그러나 크게 넘어져 피가 많이 나는 경우 지혈을 위해 상처부위를 옷이나 천으로 압박해야 하며
+눈 주위의 경우에는 상처 주위에 너무 많은 압력을 가하지 않아야 합니다."/>
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:text="4. 자상"/>
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="- 나무가 많은 산에서 나뭇가지나 가시에 찔려 자상이 생기는 경우 염증이 생길 위험이 있으니 상처를 건드리지 않는 것이 좋습니다."/>
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:text="TIP! 구조 요청 시 꼭 알려야 할 정보"/>
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="- 응급상황이 발생한 장소 / 상황 설명/ 부상자의 상태/ 구조 요청자의 이름, 연락처/ 응급처치 현황"/>
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:text="부상자 응급처치 요령(아래의 순으로 확인하도록 합니다.)"/>
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="1. 의식확인 > 호흡확인 > 맥박확인 > 출혈확인 >얼굴 색 확인\n
+2. 충격 예방 처치 > 지혈 > 상처, 골절 처치\n
+3. 응급 처치 > 기도 개방 > 구조 호흡 >심폐 소생술"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
