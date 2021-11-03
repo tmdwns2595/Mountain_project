@@ -19,4 +19,8 @@
 <img width="30%" src="https://user-images.githubusercontent.com/52947821/140154662-72ebab94-f8e3-4940-8ed2-c93972d35c8f.gif"/>
 
 - 캠핑장 검색 화면
-<img width="30%" src="https://user-images.githubusercontent.com/52947821/140154662-72ebab94-f8e3-4940-8ed2-c93972d35c8f.gif"/>
+<img width="30%" src="https://user-images.githubusercontent.com/52947821/140159572-6bba5ae5-6db4-402a-b61d-e9f152d067fc.gif"/>
+
+## 참조
+- 주소에 따른 위도와 경도를 구하기 위해 Geocoder API를 활용하였습니다. 
+- 산의 구간 별 예상 소요시간을 표시해주기 위해 KAKAO MAP을 활용하였습니다. 
